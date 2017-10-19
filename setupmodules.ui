@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetupModules</class>
+ <widget class="QDialog" name="SetupModules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Setup modules</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sewing machine</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Primary manipulator</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>171</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Secondary manipulator</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pinch roller</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back puller</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Side puller</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>171</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Curve plate pneumatics</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seam flipper</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>250</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Set</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_sewingMachine">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>10</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_primaryManipulator">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_secondaryManipulator">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>70</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_pinchRoller">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_backPuller">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_sidePuller">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>160</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_curvePlatePneumatics">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>190</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_seamFlipper">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Off</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

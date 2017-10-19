@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MAS.jpg</file>
+    </qresource>
+</RCC>
